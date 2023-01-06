@@ -13,4 +13,4 @@ def get_max_age_user_name(data:list) -> str:
         return data[0]['name']
     else:
         return data[1]['name']
-print(get_max_age_user_name([{'name': 'John', 'age': 29}, {'name': 'Mary', 'age': 2}]))
+print(get_max_age_user_name([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]))
